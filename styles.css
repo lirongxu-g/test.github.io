@@ -1,0 +1,23 @@
+/* Custom animations and additional styles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hover effects for contact icons */
+.contact-icon {
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
